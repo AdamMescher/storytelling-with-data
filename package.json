@@ -4,6 +4,9 @@
   "description": "All graphs from Storytelling With Data written by Cole Nussbaumer Knaflic recreated with Highcharts in Next.js",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
