@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AdamMescher/storytelling-with-data/issues"
   },
-  "homepage": "https://github.com/AdamMescher/storytelling-with-data#readme"
+  "homepage": "https://github.com/AdamMescher/storytelling-with-data#readme",
+  "dependencies": {
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
 }
