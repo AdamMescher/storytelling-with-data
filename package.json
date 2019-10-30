@@ -1,6 +1,6 @@
 {
   "name": "storytelling-with-data",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "All graphs from Storytelling With Data written by Cole Nussbaumer Knaflic recreated with Highcharts in Next.js",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/AdamMescher/storytelling-with-data.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Adam Mescher",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdamMescher/storytelling-with-data/issues"
   },
