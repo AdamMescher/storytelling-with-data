@@ -3,7 +3,7 @@ import StyledGraph from './styled';
 
 const Graph = ({
   highcharts,
-  options
+  options,
 }) => (
   <StyledGraph>
     <HighchartsReact highcharts={highcharts} options={options} />
