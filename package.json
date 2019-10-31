@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/AdamMescher/storytelling-with-data#readme",
   "dependencies": {
+    "highcharts": "^7.2.1",
+    "highcharts-react-official": "^2.2.2",
     "next": "^9.1.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
