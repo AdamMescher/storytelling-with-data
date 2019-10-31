@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
