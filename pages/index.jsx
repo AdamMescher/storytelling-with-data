@@ -9,7 +9,7 @@ const Index = () => (
       <Graph highcharts={highcharts} options={scatterplotOptions} />
     </section>
     <section>
-      <SimpleText text={'91%'} />
+      <SimpleText text="91%" />
     </section>
   </main>
 );
