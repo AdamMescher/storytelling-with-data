@@ -9,6 +9,8 @@
     "start": "next start",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook",
+    "lint": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js",
+    "lint-fix": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,15 +25,23 @@
   },
   "homepage": "https://github.com/AdamMescher/storytelling-with-data#readme",
   "dependencies": {
+    
+    "babel-eslint": "^10.0.3",
     "highcharts": "^7.2.1",
     "highcharts-react-official": "^2.2.2",
     "next": "^9.1.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "@storybook/react": "^5.2.5",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "@storybook/react": "^5.2.5",
-    "babel-plugin-styled-components": "^1.10.6"
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }

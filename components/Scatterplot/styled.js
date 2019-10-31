@@ -1,5 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const StyledScatterplot = styled.div``
+const StyledScatterplot = styled.div``;
 
-export default StyledScatterplot
+export default StyledScatterplot;
