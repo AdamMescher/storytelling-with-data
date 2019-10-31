@@ -1,4 +1,4 @@
-function Home() {
+const Home = () => {
   return <div>Next.js Test</div>;
 }
 
