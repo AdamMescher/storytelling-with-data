@@ -1,11 +1,11 @@
+import Highcharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official';
 import StyledScatterplot from './styled';
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
 
 const Scatterplot = () => (
-    <StyledScatterplot>
-        <HighchartsReact highcharts={Highcharts} options={options} />
-    </StyledScatterplot>
+  StyledScatterplot>
+    <HighchartsReact highcharts={Highcharts} options={options} />
+  </StyledScatterplot>
 )
 
-export default Scatterplot
+export default Scatterplot;
