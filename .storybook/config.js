@@ -1,3 +1,7 @@
-import { configure } from '@storybook/react';
+import { addParameters, configure } from '@storybook/react';
 
-configure(require.context('../src', true, /\.stories\.js$/), module);
+function loadStories() {
+    require('../stories/index.jsx');
+}
+
+configure(loadStories, module);
