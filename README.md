@@ -14,7 +14,7 @@ All charts from [Storytelling with Data](http://www.storytellingwithdata.com/) w
 
 Data from the books [is provided by the author here](http://www.storytellingwithdata.com/book/downloads).
 
-All charts completed using [Highcharts](https://www.highcharts.com/docs/index). You can [see live demos of simple charts here](https://www.highcharts.com/demo).
+All charts completed using [Highcharts](https://www.highcharts.com/docs/index).
 
 Knaflic mentions that the tool for visiualization doesn't matter as long as you have mastery of the tool. This is an attempt to gain and prove proficiency in recreating work with Highcharts. 
 
