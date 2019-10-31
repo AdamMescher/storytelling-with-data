@@ -1,5 +1,17 @@
 import styled from 'styled-components';
 
-const StyledGraph = styled.div``;
+const StyledGraph = styled.div`
+  height: '100%';
+  width: '100%';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: sans-serif;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #4F81BD;
+  }
+`;
 
 export default StyledGraph;
