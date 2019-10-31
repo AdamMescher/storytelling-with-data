@@ -8,8 +8,7 @@ export default class MyDocument extends Document {
 
     try {
       ctx.renderPage = () => originalRenderPage({
-        {/* eslint-disable-next-line */}
-        enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />),
+        enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />), // eslint-disable-line
       });
 
       const initialProps = await Document.getInitialProps(ctx);
