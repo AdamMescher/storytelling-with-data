@@ -8,6 +8,7 @@ export default class MyDocument extends Document {
 
     try {
       ctx.renderPage = () => originalRenderPage({
+        {/* eslint-disable-next-line */}
         enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />),
       });
 
