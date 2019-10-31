@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import PropTypes from 'prop-types';
-import reset from 'styled-reset'
+import reset from 'styled-reset';
 import StyledPage from './styled';
 import Meta from '../Meta/index';
 import theme from '../../lib/theme';
@@ -9,10 +9,10 @@ import theme from '../../lib/theme';
 // eslint-disable-next-line
 createGlobalStyle`
   ${reset}
-`
+`;
 
-const Page = ({ 
-  children 
+const Page = ({
+  children,
 }) => (
   <ThemeProvider theme={theme}>
     <StyledPage>
@@ -24,7 +24,7 @@ const Page = ({
 );
 
 Page.propTypes = {
-  children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired,
+};
 
 export default Page;
