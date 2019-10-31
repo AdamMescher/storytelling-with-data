@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/AdamMescher/storytelling-with-data#readme",
   "dependencies": {
+    "babel-eslint": "^10.0.3",
     "highcharts": "^7.2.1",
     "highcharts-react-official": "^2.2.2",
     "next": "^9.1.2",
