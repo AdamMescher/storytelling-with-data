@@ -25,14 +25,14 @@
   },
   "homepage": "https://github.com/AdamMescher/storytelling-with-data#readme",
   "dependencies": {
-    
+    "@storybook/react": "^5.2.5",
     "babel-eslint": "^10.0.3",
     "highcharts": "^7.2.1",
     "highcharts-react-official": "^2.2.2",
     "next": "^9.1.2",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "@storybook/react": "^5.2.5",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
