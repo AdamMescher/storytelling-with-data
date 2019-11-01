@@ -7,7 +7,7 @@ const Graph = ({
   options,
 }) => (
   <StyledGraph>
-    <HighchartsReact highcharts={highcharts} options={options} />
+    <HighchartsReact highcharts={highcharts} options={options} borders />
   </StyledGraph>
 );
 
