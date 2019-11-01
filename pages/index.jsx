@@ -1,17 +1,9 @@
-import highcharts from 'highcharts';
 import Page from '../components/Page';
-import Graph from '../components/Graph';
-import SimpleText from '../components/SimpleText';
-import scatterplotOptions from '../lib/scatterplotOptions';
+import Figure0201 from '../components/Figure0201';
 
 const Index = () => (
   <Page>
-    <section>
-      <Graph highcharts={highcharts} options={scatterplotOptions} />
-    </section>
-    <section>
-      <SimpleText text="91%" />
-    </section>
+    <Figure0201 />
   </Page>
 );
 
