@@ -17,8 +17,10 @@ const Page = ({
   <ThemeProvider theme={theme}>
     <StyledPage>
       <Meta />
-      {/* eslint-disable-next-line */}
-      {children}
+      <main>
+        {/* eslint-disable-next-line */}
+        {children}
+      </main>
     </StyledPage>
   </ThemeProvider>
 );
