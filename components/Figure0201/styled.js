@@ -12,18 +12,21 @@ const StyledDashboard = styled.section`
     "heatmap slopegraph waterfall square-area";
   section div {
     height: 90%;
+    padding: 10px;
   }
   section h2 {
-    margin: 0 0 0 2vw;
+    margin: 0 0 0 10px;
     height: 10%;
     display: flex;
     align-items: center;
   }
-  .scatterplot .highcharts-root {
+  .scatterplot .highcharts-root,
+  .vertical-bar .highcharts-root {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95%;
+    height: 90%;
+    width: 100%;
     border-left: 2px solid #BFBFBF;
     border-bottom: 2px solid #BFBFBF;
   }

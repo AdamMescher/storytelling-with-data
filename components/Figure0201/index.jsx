@@ -3,6 +3,7 @@ import HighchartsReact from 'highcharts-react-official';
 import StyledDashboard from './styled';
 import SimpleText from '../SimpleText';
 import scatterplotOptions from '../../lib/ch2/fig2.1/scatterplot_2.1';
+import verticalBarOptions from '../../lib/ch2/fig2.1/verticalBar_2.1';
 
 const Dashboard = () => (
   <StyledDashboard>
@@ -11,11 +12,11 @@ const Dashboard = () => (
       <h2>Simple text</h2>
     </section>
     <section className="scatterplot">
-      <HighchartsReact className="sctr" highcharts={highcharts} options={scatterplotOptions} />
+      <HighchartsReact highcharts={highcharts} options={scatterplotOptions} />
       <h2>Scatterplot</h2>
     </section>
     <section className="vertical-bar">
-      <div />
+      <HighchartsReact highcharts={highcharts} options={verticalBarOptions} />
       <h2>Vertical bar</h2>
     </section>
     <section className="horizontal-bar">
