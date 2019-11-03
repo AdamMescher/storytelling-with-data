@@ -7,11 +7,11 @@ import scatterplotOptions from '../../lib/ch2/fig2.1/scatterplot_2.1';
 const Dashboard = () => (
   <StyledDashboard>
     <section className="simple-text">
-      <div />
+      <SimpleText text="91%" />
       <h2>Simple text</h2>
     </section>
     <section className="scatterplot">
-      <div />
+      <HighchartsReact className="sctr" highcharts={highcharts} options={scatterplotOptions} />
       <h2>Scatterplot</h2>
     </section>
     <section className="vertical-bar">
@@ -28,7 +28,7 @@ const Dashboard = () => (
     </section>
     <section className="line">
       <div />
-      <h2>line</h2>
+      <h2>Line</h2>
     </section>
     <section className="stacked-vertical-bar">
       <div />
