@@ -4,6 +4,7 @@ import StyledDashboard from './styled';
 import SimpleText from '../SimpleText';
 import scatterplotOptions from '../../lib/ch2/fig2.1/scatterplot_2.1';
 import verticalBarOptions from '../../lib/ch2/fig2.1/verticalBar_2.1';
+import horizontalBarOptions from '../../lib/ch2/fig2.1/horizontalBar_2.1';
 
 const Dashboard = () => (
   <StyledDashboard>
@@ -20,7 +21,7 @@ const Dashboard = () => (
       <h2>Vertical bar</h2>
     </section>
     <section className="horizontal-bar">
-      <div />
+      <HighchartsReact highcharts={highcharts} options={horizontalBarOptions} />
       <h2>Horizontal bar</h2>
     </section>
     <section className="table">

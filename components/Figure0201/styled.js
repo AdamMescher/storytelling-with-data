@@ -21,7 +21,8 @@ const StyledDashboard = styled.section`
     align-items: center;
   }
   .scatterplot .highcharts-root,
-  .vertical-bar .highcharts-root {
+  .vertical-bar .highcharts-root,
+  .horizontal-bar .highcharts-root {
     display: flex;
     justify-content: center;
     align-items: center;
