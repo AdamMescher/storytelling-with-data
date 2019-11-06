@@ -1,4 +1,4 @@
-# storytelling-with-data
+# :book: storytelling-with-data :bar_chart: 
 
 All graphs from Storytelling With Data written by Cole Nussbaumer Knaflic recreated with Highcharts in Next.js
 
