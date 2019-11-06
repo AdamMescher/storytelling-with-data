@@ -27,6 +27,7 @@
   "dependencies": {
     "@storybook/react": "^5.2.5",
     "babel-eslint": "^10.0.3",
+    "cypress": "^3.6.0",
     "highcharts": "^7.2.1",
     "highcharts-react-official": "^2.2.2",
     "jest": "^24.9.0",
