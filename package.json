@@ -12,6 +12,7 @@
     "lint": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js",
     "lint-fix": "./node_modules/.bin/eslint ./ --ext .jsx --ext .js --fix",
     "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:record": "./node_modules/.bin/cypress run --record --key 7bf63285-bd95-4d01-89fa-1973e746a0bb",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
