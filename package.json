@@ -29,6 +29,7 @@
   "dependencies": {
     "@storybook/react": "^5.3.19",
     "babel-eslint": "^10.1.0",
+    "chroma-js": "^2.1.0",
     "cypress": "^4.10.0",
     "highcharts": "^8.1.2",
     "highcharts-react-official": "^3.0.0",
@@ -37,6 +38,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-table": "^7.2.2",
     "styled-components": "^5.1.1",
     "styled-reset": "^4.2.0"
   },

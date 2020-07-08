@@ -27,9 +27,8 @@ const StyledDashboard = styled.section`
     justify-content: center;
     align-items: center;
     height: 90%;
-    width: 100%;
-    border-left: 2px solid #BFBFBF;
-    border-bottom: 2px solid #BFBFBF;
+    width: 90%;
+    margin-left: 5%;
   }
 `;
 
