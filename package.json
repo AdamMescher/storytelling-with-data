@@ -40,7 +40,8 @@
     "react-dom": "^16.13.1",
     "react-table": "^7.2.2",
     "styled-components": "^5.1.1",
-    "styled-reset": "^4.2.0"
+    "styled-reset": "^4.2.0",
+    "uuid": "^8.2.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.7",

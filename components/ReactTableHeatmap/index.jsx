@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { useTable } from "react-table";
 import chroma from "chroma-js";
+import { v4 as uuidv4 } from 'uuid';
 
 function ReactTableHeatmap() {
   const chromaScale = chroma.scale(["white", "008ae5"]).domain([0, 1]);
@@ -54,7 +55,7 @@ function ReactTableHeatmap() {
         <tr {...row.getRowProps()}>
           {row.cells.map(cell => {
             return (
-              <td style={generateBackgroundColor(cell.value)}>
+              <td key={uuidv4()} style={generateBackgroundColor(cell.value)}>
                 {convertDecimalToPercentageWithinCell(cell.value)}
               </td>
             );

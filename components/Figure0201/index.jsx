@@ -27,7 +27,7 @@ if (typeof Highcharts === 'object') {
     let x = 0;
     let y = 0;
     const area = 25;
-    Highcharts.each(children, (child, i) => {
+    children.forEach((child, i) => {
       if (i % 4 === 0 && i !== 0) { y += area; x = 0; }
       childrenAreas.push({
         x: x,

@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import {useTable} from 'react-table';
+import { v4 as uuidv4 } from 'uuid';
 
 function ReactTable() {
     const data = useMemo(
@@ -48,7 +49,7 @@ function ReactTable() {
         <tr {...row.getRowProps()}>
           {row.cells.map(cell => {
             return (
-              <td>
+              <td key={uuidv4()}>
                 {convertDecimalToPercentageWithinCell(cell.value)}
               </td>
             );
